@@ -44,8 +44,7 @@ body .fp_sc_4 {
     color: #32325c;
     font-family: "Nunito",sans-serif;
     font-weight: 600;
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
 .login{
@@ -179,8 +178,8 @@ h2{
     margin-bottom: 25px;
 }
 .sect-3 img{
-    min-height: 600px;
-    min-width: 570px;
+    /* min-height: 600px;
+    min-width: 570px; */
     transform: scale(1.2);
     object-position: -40px;
 }
@@ -191,6 +190,12 @@ h2{
     display: inline-block;
     margin-left: 5px;
 }
+@media (min-width:576px){
+    .jc-sm-center{
+        justify-content: center !important;
+    }
+}
+
 .sect-4{
     margin-top: 50px;
 }
